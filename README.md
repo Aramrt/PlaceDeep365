@@ -109,7 +109,7 @@ x = image.img_to_array(img)
 x = np.expand_dims(x, axis=0)
 x = preprocess_input(x)
 ```
-Predictions gives the prediction all 3. we need the max of the prediction.
+Predictions variable gives the predictions of all 3. we need the max of the predictions.
 ```python
 prediction = model.predict(x)
 y_classes = prediction.argmax()

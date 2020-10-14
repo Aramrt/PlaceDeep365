@@ -6,7 +6,7 @@ for this detection, I have to use fine tuning and a model named VGG16PLACE with 
 # Contents: 
 This repository contains code for the following [Keras](https://keras.io/) models:
   1. Go to the [PLACE365](http://places2.csail.mit.edu/) for more detail.
-  2. Downloa VGG16Places weight ---> [here](https://github.com/CSAILVision/places365)
+  2. Download VGG16Places weight ---> [here](https://github.com/CSAILVision/places365)
 ## Code Description
 Using VGG16PLACE with places weight and making 5 last layers *Unfreeze*
 ```python

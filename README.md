@@ -111,7 +111,8 @@ x = image.img_to_array(img)
 x = np.expand_dims(x, axis=0)
 x = preprocess_input(x)
 ```
-Predictions variable gives the predictions of all 3. we need the max of the predictions.
+Predictions variable gives the predictions of all 3.
+The max percentage is the Network prediction.
 ```python
 prediction = model.predict(x)
 y_classes = prediction.argmax()

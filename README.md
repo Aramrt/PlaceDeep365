@@ -61,7 +61,7 @@ validation_generator = test_datagen.flow_from_directory(
         batch_size=20,
         class_mode='categorical')
 ```
-Compiling the network and Training process. Learning Rate is very little. In fine Tuning you have to use a little LR, because we almost get to the local min.
+Compiling the network and Training process. Learning Rate is very little. In Fine Tuning you have to use a little LR, because we are so close to the min local.
 ```python
 model.compile(loss='categorical_crossentropy',
             optimizer=optimizers.RMSprop(lr=2e-5),
